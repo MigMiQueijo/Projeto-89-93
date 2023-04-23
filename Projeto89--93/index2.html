@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <center>
+        <h4 id="player1Name"></h4> <span id="player1Score"></span>
+        <br>
+        <h4 id="player2Name"></h4> <span id="player2Score"></span>
+        <div class="container"></div>
+    </center>
+    <H1><b>QUIZ DE MATEMÁTICA</b></H1>
+    <h3 id="Answer">Vez de responder:</h3>
+    <h3 id="Question">Vez de perguntar:</h3>
+    <div id="output">
+        <h4 id="question"></h4>
+        <label>Resposta:</label>
+        <input type="text">
+        <button onclick="checar()">Checar</button>
+    </div>
+    <h5>Número 1</h5>
+    <input type="text" id="number1">
+    <h5>Número 2</h5>
+    <input type="text" id="number2">
+    <button onclick="send()">Mandar</button>
+    <script src="main2.js"></script>
+</body>
+</html>
